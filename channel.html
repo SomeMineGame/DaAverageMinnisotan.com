@@ -8,8 +8,10 @@
     <meta property="og:url" content="https://daaverageminnisotan.com">
     <meta property="og:description" content="2 Brian Cells Fighting For Tird Place. Also yes I know it's mispelled...">
     <meta property="og:image" content="https://daaverageminnisotan.com/assets/Primary128.jpg">
-    <title>Home</title>
+    <title>Channel</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/channel.css">
+    <script src="./css/channel.js"></script>
 </head>
 <body>
     <ul>
@@ -17,8 +19,8 @@
         <li class="sitename">Average Minnisotan</li>
         <li class="menutop"><a class="menu">Menu</a>
             <ul class="menuelements">
-                <li><a class="active" href="./index.html">Home</a></li>
-                <li><a href="./channel.html">Channel</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a class="active" href="./channel.html">Channel</a></li>
                 <li><a href="./challenges.html">Challenges</a></li>
                 <li><a href="https://discord.gg/invite/JrRhzxt8G4">Discord</a></li>
             </ul>
@@ -26,24 +28,32 @@
     </ul>
     <div class="maingrid">
         <div class="image">
-            <img src="./assets/Primary128.jpg" alt="Average Minnisotan Profile Picture">
+            <img id="channelicon" src="./assets/Primary128.jpg" alt="Average Minnisotan Profile Picture">
         </div>
         <div class="text">
-            <h1 class="indent">2 Brian Cells Fighting For Tird Place</h1>
-            <p>Also yes I know it's mispelled...</p>
+            <h1 id="channelname" class="indent">Loading Name...</h1>
+            <p id="channeldescription">Loading Description...</p>
+        </div>
+        <hr>
+    </div>
+    <div class="maingrid desktop">
+        <div class="text full">
+            <h1> &nbsp &nbsp &nbsp Latest Video &nbsp &nbsp &nbsp Channel Trailor</h1>
+            <figure id="VideoURL" onclick="window.location=''"><img id="VideoThumbnail" src="./assets/Primary128.jpg"><figcaption id="VideoTitle">Loading Title...</figcaption></figure>
+            <figure id="TrailerURL" onclick="window.location=''"><img id="TrailerThumbnail" src="./assets/Primary128.jpg"><figcaption id="TrailerTitle">Loading Title...</figcaption></figure>
         </div>
         <hr>
     </div>
     <div class="maingrid">
         <div class="text full">
-            <h1>A Little Bit About Me</h1>
-            <p>As you may have guessed, I'm from the great state of Minnesota.</p>
+            <h1>Stats</h1>
+            <p><span id="subs">0</span> Subscribers &nbsp &nbsp &nbsp &nbsp &nbsp <span id="views">0</span> Views</p>
         </div>
     </div>
 <footer>
     <ul style="padding: 3px 10px">
         <li class="left">Site Created By: <a href="https://someminegame.com">SomeMineGame</a></li>
-        <li class="right">Page Last Edited: December 9, 2025 at 11:14 PM</li>
+        <li class="right">Page Last Edited: December 18, 2025 at 5:39 PM PM</li>
     </ul>
 </footer>
 </body>
