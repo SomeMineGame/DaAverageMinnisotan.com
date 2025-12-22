@@ -1,3 +1,4 @@
+
 body {
     background-color: #334;
     text-align: center;
@@ -202,6 +203,10 @@ a {
     p {
         font-size: 5vw;
     }
+
+    .desktop {
+        display: none;
+    }
 }
 
 /* Medium Screens */
@@ -299,6 +304,10 @@ a {
     .full {
         grid-area: 1/2/1/10;
     }
+
+    .mobile {
+        display: none;
+    }
 }
 
 /* Desktop Screens*/
@@ -395,5 +404,9 @@ a {
     
     .full {
         grid-area: 1/2/1/10;
+    }
+
+    .mobile {
+        display: none;
     }
 }

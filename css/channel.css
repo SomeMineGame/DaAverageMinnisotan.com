@@ -8,11 +8,13 @@
 
     figure img {
         width: 85vw;
+        height: 47.75vw;
+        object-fit: cover;
     }
 
     figure figcaption {
         font-size: 4.5vw;
-        margin-top: 1vh;
+        margin-bottom: 1vh;
         color: aliceblue;
         text-align: center;
     }
