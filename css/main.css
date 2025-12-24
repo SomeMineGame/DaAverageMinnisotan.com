@@ -108,6 +108,7 @@ h1, p {
 
 a {
     color:aliceblue;
+    text-decoration: none;
 }
 
 /* Mobile Screens*/
@@ -155,7 +156,7 @@ a {
 
     .maingrid {
         grid-template-columns: 20% 20% 20% 20% 20%;
-        margin-bottom: 3vw;
+        margin-bottom: 4vw;
     }
 
     footer {
@@ -187,6 +188,7 @@ a {
     hr {
         grid-area: 3/1/3/6;
         margin-top: 4vw;
+        margin-bottom: 0;
         width: calc(100vw - calc(100vw - 100%));
         height: 5px;
     }
@@ -399,7 +401,7 @@ a {
 
     .text {
         grid-area: 1/4/1/10;
-        padding: 0em 2.5vw;
+        padding: 0 2.5vw;
     }
     
     .full {
